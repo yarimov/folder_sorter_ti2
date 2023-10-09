@@ -15,4 +15,3 @@ FORMAT_DIRECTORY:
   'xlsm': 'EXCEL'
   'dwg': 'DWG'
   'pdf': 'PDF'
-  'txt': 'TXT'
