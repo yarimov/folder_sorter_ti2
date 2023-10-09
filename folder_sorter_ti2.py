@@ -264,7 +264,7 @@ class App(customtkinter.CTk):
             self.display_info_to_textbox('Ошибка! Укажите путь к проекту.')
 
     def checkbox_default_folder_event(self):
-
+        """ Метод заполняет путь сохранения проекта 'folder_to' по умолчанию из конф. файла при нажатии на чекбкос. """
         if self.entry_folder_to.cget('state') == 'normal':
             self.entry_folder_to.delete(0, 'end')
             self.entry_folder_to.insert(0, (self.load_config().get("DEFAULT_FOLDER", '')).replace("\\", "/"))
