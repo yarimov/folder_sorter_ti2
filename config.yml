@@ -1,0 +1,18 @@
+# Укажите папку сохранения по умолчанию
+"DEFAULT_FOLDER": 'C:\Users\Alex\Documents\programming\folder_sorter\test_dir\AKU.0179.30UQR.CYB.SS.TB0001'
+
+# Первые символы в названии файлов, которые будут исключены из проверок и сортировок (Служебные файлы)
+"IGNORED_IN_FILENAME": ('~', '!')
+
+
+# Указать форматы файлов и соответствующие им наименования папок для их последующей сортировки
+FORMAT_DIRECTORY:
+  'doc': 'WORD'
+  'docx': 'WORD'
+  'dot': 'WORD'
+  'dotx': 'WORD'
+  'xlsx': 'EXCEL'
+  'xlsm': 'EXCEL'
+  'dwg': 'DWG'
+  'pdf': 'PDF'
+  'txt': 'TXT'
