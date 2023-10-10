@@ -2,5 +2,5 @@
 /.idea
 /venv
 /buckup
-dnd.spec
-
+/dist
+/folder_sorter_ti2.spec
