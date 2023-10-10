@@ -3,7 +3,7 @@ customtkinter==5.2.0
 darkdetect==0.8.0
 packaging==23.2
 pefile==2023.2.7
-pyinstaller==6.0.0
+pyinstaller==5.13.2
 pyinstaller-hooks-contrib==2023.9
 pywin32-ctypes==0.2.2
 PyYAML==6.0.1
